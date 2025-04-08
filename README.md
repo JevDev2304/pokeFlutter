@@ -48,5 +48,5 @@ This app was built as part of my learning journey through the following resource
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/pokemon-flutter-app.git
+   git clone https://github.com/JevDev2304/pokemon-flutter-app.git
    cd pokemon-flutter-app
