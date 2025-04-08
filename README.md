@@ -1,16 +1,52 @@
-# poke_flutter
+# 📱 Pokémon Flutter App
 
-A new Flutter project.
+A Flutter application for Pokémon fans featuring a Pokédex, a favorites list, and a collection of mainline Pokémon video games.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🧩 Features
 
-A few resources to get you started if this is your first Flutter project:
+### 🔖 Favorites
+- Save your favorite Pokémon locally using `shared_preferences`.
+- Easily access and manage your custom favorite list.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 📘 Pokédex
+- Fetches real-time Pokémon data from the [PokéAPI v2](https://pokeapi.co/docs/v2).
+- Detailed Pokémon view includes:
+  - Main Pokémon image
+  - Pokédex index number
+  - Pokémon types
+  - Sprites (normal and shiny)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🎮 Video Games
+- Explore the main Pokémon video games, from **Red/Blue** to **Scarlet/Violet**.
+- **All video game information is statically stored in the code.**
+- Each game has a standalone description with no dependencies on previous titles.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Flutter** & **Dart**
+- **Provider** (`ChangeNotifier`) for state management
+- **shared_preferences** for local storage
+- **HTTP** for API requests
+
+---
+
+## 📚 Learning Resources
+
+This app was built as part of my learning journey through the following resources:
+
+- [Flutter Course – Platzi](https://platzi.com/cursos/flutter/)
+- [The Complete Dart & Flutter Developer Course | Full Tutorial For Beginners to Advanced – YouTube](https://www.youtube.com/watch?v=CzRQ9mnmh44)
+- **Mobile App Development subject** – Universidad de Medellín
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/pokemon-flutter-app.git
+   cd pokemon-flutter-app
